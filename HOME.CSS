@@ -192,6 +192,12 @@ width: 100%;
 
 
 } 
+@media screen and (max-width:600px){
+  .dropbtn,.dropdown {
+ display: none;
+ position: relative;
+
+ }}
 .card
 {
 width: 150px;
