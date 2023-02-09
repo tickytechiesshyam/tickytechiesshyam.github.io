@@ -1,0 +1,36 @@
+.dropdown
+{
+display: inline-block;
+position: relative;
+
+}
+.dropbtn
+{
+background-color: black;
+color: aliceblue;
+border: none;
+}
+.dropdown-content
+{
+background-color: black;
+display: none;
+position: absolute;
+background-color: rgb(29, 27, 26);
+z-index: 1;
+}
+.dropdown-content a
+{
+background-color: black;
+color: rgb(0, 25, 107);
+display: block;
+text-decoration: none;
+}
+.dropdown-content a:hover
+{
+color: rgb(10, 255, 231);
+background-color: rgb(13, 18, 121);
+
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
