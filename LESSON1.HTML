@@ -31,7 +31,59 @@ color: rgb(255, 255, 255);
 </div>
 </nav>
 
-  <div class="maindiv">
+<div class="topnav" id="myTopnav">
+
+<a href="#" class="active">Home</a>
+<a href="javascript:void(0);" onclick="myFunction()"class="icon">&#9776;
+</a>
+<div class="dropdown">
+ 
+  <button class="dropbtn">Membership</button>
+  <!-- <i class="fa fa-caret-down"></i> -->
+
+  <div class="dropdown-content">
+    <a href="silver.html">Silver</a>
+        <br>
+        <a href="#">Gold</a>
+        <br>
+        <a href="#">Platinum</a>
+  </div>
+
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Today's deals</button>
+ 
+
+  <div class="dropdown-content">
+    <a href="#">Gift wheel</a>
+      <br>
+      <a href="#">Limited offers</a>
+      <br>
+      <a href="#">Best sellers</a>
+  </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">About us</button>
+    
+
+    <div class="dropdown-content">
+      <a href="#">Where to find us</a>
+      <br>
+      <a href="#">our return policy</a>
+</div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Customer service</button>
+ 
+
+  <div class="dropdown-content">
+    <a href="#">Contact info</a>
+    <br>
+    <a href="#">Rate us</a>
+    <br>
+    <a href="#">Help</a>
+</div>
+  <!-- <div class="maindiv">
     
     <button class="dropbtn">Home</button>
     
@@ -79,7 +131,7 @@ color: rgb(255, 255, 255);
 </div>
 
 
-</div>
+</div> -->
 
  
   
@@ -164,6 +216,17 @@ color: rgb(255, 255, 255);
     
     <br>All it takes is 30 seconds to Download.</h1>
 </div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  
 </body>
 <footer >
   <p>shyam: gmail<br>
