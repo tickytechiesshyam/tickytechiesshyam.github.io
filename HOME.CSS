@@ -141,7 +141,7 @@ overflow: hidden;
 background-color: #3d3d3d;
 color: aliceblue;
 border: none;
-width: 239px; 
+ width: 239px;  
 border: #161616;
 border-radius: 10px;
 
@@ -433,9 +433,9 @@ font-family: cursive;
   color: white;
  text-align: center;
  padding-right: 106px;
- padding-left: 110px;
+ padding-left: 110px; 
  justify-content: center;
- 
+ width: max-content;
 } 
 a
 {
